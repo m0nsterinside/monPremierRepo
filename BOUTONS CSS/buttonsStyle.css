@@ -1,0 +1,53 @@
+.buttonSmall
+{
+    font-family : 'roboto', sans-serif;
+    font-size: 13px;
+    color: #2196f3;
+    width : 105px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    border : none;
+    border-radius: 2px;
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.buttonSmall:hover
+{
+    color: #FFFFFF;
+    background-color: #2196f3;
+    border : none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.19);
+}
+.buttonSmall:active
+{
+    background-color: #1e85d7;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.19);
+  transform: translateY(2px);
+}
+.buttonLarge
+{
+	font-family : 'roboto',sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+	width : 208px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background-color: #00c853;
+    border : none;
+    border-radius: 2px;
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.buttonLarge:hover
+{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.19);
+}
+.buttonLarge:active 
+{
+  background-color: #01b44b;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.19);
+  transform: translateY(2px);
+}
+
