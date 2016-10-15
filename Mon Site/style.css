@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family:'novecento wide';
+    src : url('fonts/novecentowide-bold-webfont.eot') format('eot'),
+          url('fonts/novecentowide-bold-webfont.woff') format('woff'),
+          url('fonts/novecentowide-bold-webfont.ttf') format('truetype'),
+          url('fonts/novecentowide-bold-webfont.svg') format('svg');
+}
+
+*
+{
+    text-align: center;
+}
+
+#lalistealignee ul {
+}
+
+
+#lalistealignee li {
+    text-align: left;
+    margin-left: 40%;
+}
+h1
+{
+    font-family : novecento,georgia,sans-serif;
+}
+
+p
+{
+    font-family: georgia,verdana,sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
