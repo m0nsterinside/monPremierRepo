@@ -6,25 +6,46 @@
           url('fonts/novecentowide-bold-webfont.ttf') format('truetype'),
           url('fonts/novecentowide-bold-webfont.svg') format('svg');
 }
-
-*
+body
 {
+    width: 900px;
+    margin: auto;
     text-align: center;
 }
-
-#lalistealignee ul {
+header
+{
+  height: 100px;
+  border-bottom: 1px black solid;
+  border-shadow: 2px 2px 4px black;
+  display: flex;
+  justify-content: center;
 }
-
-
-#lalistealignee li {
-    text-align: left;
-    margin-left: 40%;
+#LogoInktober
+{
+  width: 80px;
+  height: 80px;
+}
+.lalistealignee
+{
+  width : 100px;
+  margin: auto;
+  text-align: left;
+}
+img
+{
+  padding-bottom: 30px;
 }
 h1
 {
     font-family : novecento,georgia,sans-serif;
+    padding-left: 20px;
 }
-
+article h1
+{
+    font-family: novecento,georgia,sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
 p
 {
     font-family: georgia,verdana,sans-serif;
